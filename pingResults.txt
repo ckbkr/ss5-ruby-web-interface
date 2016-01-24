@@ -1,0 +1,41 @@
+tun5::Australia::295
+tun6::Austria::13
+tun7::Brazil::275
+tun8::Bulgaria::31
+tun9::Canada::92
+tun10::Chile::221
+tun11::China::425
+tun12::Czech Republic::16
+tun13::Denmark::28
+tun14::France::12
+tun15::Germany::0
+tun16::Hong Kong::278
+tun17::Hungary::24
+tun18::Iceland::1088
+tun19::India::146
+tun20::Indonesia::217
+tun21::Ireland::748
+tun22::Israel::55
+tun23::Italy::12
+tun24::Japan::256
+tun25::Latvia::49
+tun26::Luxembourg::17
+tun27::Malaysia::210
+tun28::Netherlands::10
+tun29::Norway::31
+tun30::Panama::178
+tun31::Poland::29
+tun32::Portugal::47
+tun33::Russian Federation::54
+tun34::Serbia::35
+tun35::Singapore::255
+tun36::South Africa::158
+tun37::Spain::35
+tun38::Sweden::26
+tun39::Switzerland::10
+tun40::Taiwan::269
+tun41::Thailand::286
+tun42::Turkey::59
+tun43::Ukraine::36
+tun44::United Kingdom::12
+tun45::United States::81

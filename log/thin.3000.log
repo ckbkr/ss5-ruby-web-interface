@@ -1,0 +1,6 @@
+Writing PID to tmp/pids/thin.3000.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3000, CTRL+C to stop
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!

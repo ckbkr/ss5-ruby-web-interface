@@ -1,0 +1,11 @@
+$ irb
+> require './model'
+> @user = User.new(:username => "admin", :password => "test")
+> @user.save
+> @user.password
+# => "$2a$10$lKgran7g.1rSYY0M6d0V9.uLInljHgYmrr68LAj86rllmApBSqu0S"
+> @user.password == 'test'
+# => true
+> @user.password
+# => "$2a$10$lKgran7g.1rSYY0M6d0V9.uLInljHgYmrr68LAj86rllmApBSqu0S"
+> exit

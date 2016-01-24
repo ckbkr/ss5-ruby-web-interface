@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <body class='container'>
+    <p>Zu welchem Land soll der Proxy leiten?</p>
+    <form action='cast' method='post'>
+      <ul class='unstyled'>
+        <% @Choices.each do |id, text| %>
+          <li>
+            <label class='radio'>
+              <input type='radio' name='adapter' value='<%= id %>' id='adapter' />
+              <%= text[0] %>
+	      <% if (text[1] > 0 ) then %>
+              <% if (text[1] == 1 ) then %>
+	      <em style="color:red;">
+              starting
+              </em>
+              <% end %>
+              <% if (text[1] == 2 ) then %>
+              <em style="color:green;">
+              online
+              </em>
+              <% end %>
+	      <% end %>
+	      <% if (@currentTun == id) then %>
+              <span class="meldung" style="color:blue">Ziel</span>
+              <% end %>
+            </label>
+          </li>
+        <% end %>
+      </ul>
+      <button type='submit' class='btn btn-primary'>Einstellen</button>
+    </form>
+  </body>
+</html>
